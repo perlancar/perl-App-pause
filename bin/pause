@@ -9,6 +9,8 @@ use warnings;
 
 use Perinci::CmdLine::pause;
 
+BEGIN { $ENV{DATA_SAH_PP} = 1 }
+
 my $prefix = '/WWW/PAUSE/Simple/';
 Perinci::CmdLine::pause->new(
     url => $prefix,
