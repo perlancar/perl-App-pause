@@ -21,4 +21,7 @@ Revision history for App-pause
 
 0.21    2015-04-15 (PERLANCAR)
 
-        - First release, split from WWW-PAUSE-Simple to reduce dependencies.
+        - First release, split from WWW-PAUSE-Simple to reduce dependencies for
+          that distribution. Use fatpacking to reduce dependencies of the script
+          to just LWP::UserAgent and LWP::Protocol::https (both involve XS
+          modules so they can't be fatpacked).
