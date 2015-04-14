@@ -1,5 +1,5 @@
 Revision history for App-pause
 
-0.01    2015-04-11 (PERLANCAR) (unreleased)
+0.21    2015-04-15 (PERLANCAR)
 
         - First release, split from WWW-PAUSE-Simple to reduce dependencies.
