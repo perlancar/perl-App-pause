@@ -1,5 +1,12 @@
 Revision history for App-pause
 
+0.24    2015-04-15 (PERLANCAR)
+
+	- No functional changes.
+
+	- [build] Rebuild with fatten setting: perl_version=5.010001.
+
+
 0.23    2015-04-15 (PERLANCAR)
 
 	- No functional changes.
