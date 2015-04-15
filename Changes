@@ -1,5 +1,13 @@
 Revision history for App-pause
 
+0.28    2015-04-15 (PERLANCAR)
+
+	- No functional changes.
+
+	- [Build] Tweak fatten settings: reactivate stripper=1, no longer
+          exclude_prereq DateTime because new Data-Sah no longer depends on it.
+
+
 0.27    2015-04-15 (PERLANCAR)
 
 	- No functional changes.
