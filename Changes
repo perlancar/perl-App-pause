@@ -1,5 +1,13 @@
 Revision history for App-pause
 
+0.27    2015-04-15 (PERLANCAR)
+
+	- No functional changes.
+
+	- [Build] Tweak fatten settings, now uses --include-prereq &
+	  --exclude-prereq.
+
+
 0.26    2015-04-15 (PERLANCAR)
 
 	- No functional changes.
