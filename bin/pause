@@ -13,6 +13,7 @@ BEGIN { $ENV{DATA_SAH_PP} = 1 }
 
 my $prefix = '/WWW/PAUSE/Simple/';
 Perinci::CmdLine::pause->new(
+    summary => 'A CLI for PAUSE',
     url => $prefix,
     subcommands => {
         upload     => { url => "${prefix}upload_file" },
