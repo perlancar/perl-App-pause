@@ -1,5 +1,15 @@
 Revision history for App-pause
 
+0.29    2015-04-16 (PERLANCAR)
+
+	- No functional changes.
+
+        - Tweak summary.
+
+        - Split Perinci::CmdLine::pause to its own distribution to make that
+          module's test pass [CT].
+
+
 0.28    2015-04-15 (PERLANCAR)
 
 	- No functional changes.

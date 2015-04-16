@@ -39,7 +39,7 @@ Perinci::CmdLine::pause->new(
     log => 1,
 )->run;
 
-# ABSTRACT: An API for PAUSE
+# ABSTRACT: A CLI for PAUSE
 # PODNAME:
 
 =head1 SYNOPSIS
