@@ -1,5 +1,10 @@
 Revision history for App-pause
 
+0.30    2015-04-19 (PERLANCAR)
+
+	- Add missing module: Perinci::CmdLine::pause [CT].
+
+
 0.29    2015-04-16 (PERLANCAR)
 
 	- No functional changes.
