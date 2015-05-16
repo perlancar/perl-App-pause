@@ -1,5 +1,13 @@
 Revision history for App-pause
 
+0.32    2015-05-16 (PERLANCAR)
+
+	- No functional changes.
+
+	- [build] Rebuild due to error (not built with new version of
+          DZP:Fatten).
+
+
 0.31    2015-05-16 (PERLANCAR)
 
 	- No functional changes.
