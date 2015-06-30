@@ -15,6 +15,7 @@ my $prefix = '/WWW/PAUSE/Simple/';
 Perinci::CmdLine::pause->new(
     summary => 'A CLI for PAUSE',
     url => $prefix,
+    extra_urls_for_version => ['/App/pause/'],
     subcommands => {
         upload     => { url => "${prefix}upload_file" },
         list       => { url => "${prefix}list_files" },
