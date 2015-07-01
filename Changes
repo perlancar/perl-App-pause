@@ -1,5 +1,11 @@
 Revision history for App-pause
 
+0.37    2015-07-02 (PERLANCAR)
+
+	- Add extra_urls_for_version for --version to view WWW::PAUSE::Simple's
+          version.
+
+
 0.36    2015-06-14 (PERLANCAR)
 
 	- Replace DATA_SAH_PP with DATA_SAH_CORE_OR_PP which works.
