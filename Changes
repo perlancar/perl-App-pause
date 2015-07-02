@@ -1,5 +1,12 @@
 Revision history for App-pause
 
+0.38    2015-07-02 (PERLANCAR)
+
+	- No functional changes.
+
+	- Add # DIST.
+
+
 0.37    2015-07-02 (PERLANCAR)
 
 	- Add extra_urls_for_version for --version to view WWW::PAUSE::Simple's
