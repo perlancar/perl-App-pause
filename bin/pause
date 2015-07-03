@@ -8,9 +8,9 @@ use 5.010001;
 use strict;
 use warnings;
 
-use Perinci::CmdLine::pause;
+require Perinci::CmdLine::pause;
 
-BEGIN { $ENV{DATA_SAH_CORE_OR_PP} = 1 }
+$ENV{DATA_SAH_CORE_OR_PP} = 1;
 
 my $prefix = '/WWW/PAUSE/Simple/';
 Perinci::CmdLine::pause->new(
