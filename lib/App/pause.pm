@@ -1,6 +1,7 @@
 package App::pause;
 
 # DATE
+# DIST
 # VERSION
 
 1;
