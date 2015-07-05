@@ -4,7 +4,8 @@ Revision history for App-pause
 
         - [build] Now use depak (datapack) to pack script instead of fatpack
           (slightly reduce startup overhead, and hope it can now be viewed in
-          MetaCPAN, previously MetaCPAN complains that the script is too big).
+          MetaCPAN, previously MetaCPAN complains that the script is too big.
+          UPDATE: nope, still can't display it).
 
 
 0.38    2015-07-02 (PERLANCAR)
