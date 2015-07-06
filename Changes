@@ -1,5 +1,14 @@
 Revision history for App-pause
 
+0.40    2015-07-06 (PERLANCAR)
+
+        - No functional changes.
+
+        - [build] Build fixes: put $DIST in App/pause.pm instead of bin/pause
+          (the one which we will use later), use update DZP:Depak 0.10 which
+          fixes typo.
+
+
 0.39    2015-07-05 (PERLANCAR)
 
         - [build] Now use depak (datapack) to pack script instead of fatpack
