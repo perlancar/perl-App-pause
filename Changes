@@ -1,8 +1,13 @@
 Revision history for App-pause
 
+0.42    2015-07-07 (PERLANCAR)
+
+        - Bump WWW::PAUSE::Simple to 0.24 (fix undef warnings).
+
+
 0.41    2015-07-07 (PERLANCAR)
 
-        - WWW::PAUSE::Simple bumped to 0.23 (dry-run support & --group-delay for
+        - Bump WWW::PAUSE::Simple to 0.23 (dry-run support & --group-delay for
           upload).
 
 
