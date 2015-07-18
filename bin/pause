@@ -18,7 +18,7 @@ Perinci::CmdLine::pause->new(
     url => $prefix,
     extra_urls_for_version => ['/App/pause/'],
     subcommands => {
-        upload     => { url => "${prefix}upload_file" },
+        upload     => { url => "${prefix}upload_files" },
         list       => { url => "${prefix}list_files" },
         ls         => {
             url => "${prefix}list_files",
