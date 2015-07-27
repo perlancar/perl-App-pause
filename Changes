@@ -1,5 +1,15 @@
 Revision history for App-pause
 
+0.43    2015-07-27 (PERLANCAR)
+
+        - No functional changes.
+
+        - Fix --version (it now shows App-pause's version as it should, with
+          /WWW/PAUSE/Simple's version as additional version to show).
+
+        - Fix POD generation.
+
+
 0.42    2015-07-07 (PERLANCAR)
 
         - Bump WWW::PAUSE::Simple to 0.24 (fix undef warnings).
