@@ -86,13 +86,19 @@ Then:
  % pause cleanup
  % pause cleanup -n 3 ; # keep 3 versions (newest + previous two)
 
- # change your password
+ # view permissions (not yet implemented)
  ...
 
- # view your account info
+ # change permissions (not yet implemented)
  ...
 
- # change your email forwarding
+ # change your password (not yet implemented)
+ ...
+
+ # view your account info (not yet implemented)
+ ...
+
+ # change your email forwarding (not yet implemented)
  ...
 
 
