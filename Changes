@@ -1,5 +1,13 @@
 Revision history for App-pause
 
+0.44    2015-07-27 (PERLANCAR)
+
+        - No functional changes.
+
+        - Remove unimplemented subcommand 'password'. Mark unimplemented
+          subcommands in Synopsis as such.
+
+
 0.43    2015-07-27 (PERLANCAR)
 
         - No functional changes.
