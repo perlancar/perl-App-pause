@@ -10,13 +10,17 @@ use warnings;
 
 require Perinci::CmdLine::pause;
 
+our %SPEC;
+
+$SPEC{':package'} = { v=>1.1 };
+
 $ENV{DATA_SAH_CORE_OR_PP} = 1;
 
 my $prefix = '/WWW/PAUSE/Simple/';
 
 Perinci::CmdLine::pause->new(
     summary => 'A CLI for PAUSE',
-    url => '/App/pause/',
+    url => '/main/',
     extra_urls_for_version => [$prefix],
     subcommands => {
         upload     => { url => "${prefix}upload_files" },
