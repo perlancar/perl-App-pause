@@ -1,14 +1,40 @@
 Revision history for App-pause
 
+0.45    2015-07-28 (PERLANCAR)
+
+        - No functional changes.
+
+        - Bump packed module Perinci::CmdLine::Lite to 1.24 (suggestion of
+          similar commands on typo).
+
+
+0.44    2015-07-27 (PERLANCAR)
+
+        - No functional changes.
+
+        - Remove unimplemented subcommand 'password'. Mark unimplemented
+          subcommands in Synopsis as such.
+
+
+0.43    2015-07-27 (PERLANCAR)
+
+        - No functional changes.
+
+        - Fix --version (it now shows App-pause's version as it should, with
+          /WWW/PAUSE/Simple's version as additional version to show).
+
+        - Fix POD generation.
+
+
 0.42    2015-07-07 (PERLANCAR)
 
-        - Bump WWW::PAUSE::Simple to 0.24 (fix undef warnings).
+        - Bump packed module WWW::PAUSE::Simple to 0.24 (fix undef warnings).
 
 
 0.41    2015-07-07 (PERLANCAR)
 
-        - Bump WWW::PAUSE::Simple to 0.23 (dry-run support & --group-delay for
-          upload).
+        - Bump packed module WWW::PAUSE::Simple to 0.23 (dry-run support &
+          --group-delay for upload).
 
 
 0.40    2015-07-06 (PERLANCAR)
@@ -24,8 +50,9 @@ Revision history for App-pause
 
         - [build] Now use depak (datapack) to pack script instead of fatpack
           (slightly reduce startup overhead, and hope it can now be viewed in
-          MetaCPAN, previously MetaCPAN complains that the script is too big.
-          UPDATE: nope, still can't display it).
+          MetaCPAN, previously MetaCPAN complains that the script is too big.)
+          UPDATE: nope, still can't display it. UPDATE 2015-07-27: looks like
+          MetaCPAN now can display bin/pause's POD, yay.
 
 
 0.38    2015-07-02 (PERLANCAR)

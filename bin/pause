@@ -10,15 +10,20 @@ use warnings;
 
 require Perinci::CmdLine::pause;
 
+our %SPEC;
+
+$SPEC{':package'} = { v=>1.1 };
+
 $ENV{DATA_SAH_CORE_OR_PP} = 1;
 
 my $prefix = '/WWW/PAUSE/Simple/';
+
 Perinci::CmdLine::pause->new(
     summary => 'A CLI for PAUSE',
-    url => $prefix,
-    extra_urls_for_version => ['/App/pause/'],
+    url => '/main/',
+    extra_urls_for_version => [$prefix],
     subcommands => {
-        upload     => { url => "${prefix}upload_file" },
+        upload     => { url => "${prefix}upload_files" },
         list       => { url => "${prefix}list_files" },
         ls         => {
             url => "${prefix}list_files",
@@ -34,7 +39,7 @@ Perinci::CmdLine::pause->new(
         },
         undelete   => { url => "${prefix}undelete_files" },
         reindex    => { url => "${prefix}reindex_files" },
-        password   => { url => "${prefix}set_password" },
+        #password   => { url => "${prefix}set_password" },
         #'account-info' => { url => "${prefix}set_account_info" },
         cleanup    => { url => "${prefix}delete_old_releases" },
     },
@@ -81,13 +86,19 @@ Then:
  % pause cleanup
  % pause cleanup -n 3 ; # keep 3 versions (newest + previous two)
 
- # change your password
+ # view permissions (not yet implemented)
  ...
 
- # view your account info
+ # change permissions (not yet implemented)
  ...
 
- # change your email forwarding
+ # change your password (not yet implemented)
+ ...
+
+ # view your account info (not yet implemented)
+ ...
+
+ # change your email forwarding (not yet implemented)
  ...
 
 
