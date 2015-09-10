@@ -31,6 +31,7 @@ Perinci::CmdLine::pause->new(
             is_alias => 1,
         },
         "list-dists" => { url => "${prefix}list_dists" },
+        "list-mods"  => { url => "${prefix}list_modules" },
         delete     => { url => "${prefix}delete_files" },
         rm         => {
             url => "${prefix}delete_files",
@@ -70,6 +71,9 @@ Then:
  % pause ls 'App-*'; # accept filenames/wildcard patterns, note: quote first
  % pause ls -l     ; # see file sizes/mtimes/etc instead of just names
 
+ # list your dists
+ % pause list-dists
+
  # delete files
  % pause delete Foo-Bar-0.12.tar.gz Foo-Bar-0.12.readme Foo-Bar-0.12.meta
  % pause rm 'Foo-Bar-*'; # accept wildcard patterns, but quote first
@@ -86,19 +90,32 @@ Then:
  % pause cleanup
  % pause cleanup -n 3 ; # keep 3 versions (newest + previous two)
 
- # view permissions (not yet implemented)
+To view permissions:
+
+ # list all modules that you have permissions of
+ % pause list-mods
+ % pause list-mods -l ; # show detail
+
+ # list all modules matching a wildcard
+ % pause list-mods -l 'Unix*'
+
+ # list all modules you have co-maint of
+ % pause list-mods -l --type co-maint
+
+To change permissions (not yet implemented):
+
  ...
 
- # change permissions (not yet implemented)
+To change your password (not yet implemented):
+
  ...
 
- # change your password (not yet implemented)
+To view your account info (not yet implemented):
+
  ...
 
- # view your account info (not yet implemented)
- ...
+To change your email forwarding (not yet implemented):
 
- # change your email forwarding (not yet implemented)
  ...
 
 
