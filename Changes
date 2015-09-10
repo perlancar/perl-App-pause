@@ -1,5 +1,10 @@
 Revision history for App-pause
 
+0.46    2015-09-10 (PERLANCAR)
+
+	- Add subcommand: list-mods to view permissions.
+
+
 0.45    2015-07-28 (PERLANCAR)
 
         - No functional changes.
