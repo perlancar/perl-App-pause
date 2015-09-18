@@ -1,5 +1,12 @@
 Revision history for App-pause
 
+0.48    2015-09-18 (PERLANCAR)
+
+        - No functional changes.
+
+        - Rebuild with updated Complete::* modules which has fuzzy matching.
+
+
 0.47    2015-09-10 (PERLANCAR)
 
         - No changes, re-upload.
