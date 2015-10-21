@@ -1,5 +1,13 @@
 Revision history for App-pause
 
+0.51    2015-10-21 (PERLANCAR)
+
+	- No functional changes.
+
+	- [build] Rebuild with fixed DZP:Depak (0.16) which sets dist metadata
+          x_Dist_Zilla_Plugin_Depak correctly.
+
+
 0.50    2015-10-21 (PERLANCAR)
 
 	- No functional changes.
