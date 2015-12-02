@@ -121,6 +121,6 @@ To change your email forwarding (not yet implemented):
 
 =head1 prepend:FILES
 
-~/.pause
+F<~/.pause>
 
 =cut
