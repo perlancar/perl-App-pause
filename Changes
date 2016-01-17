@@ -1,5 +1,15 @@
 Revision history for App-pause
 
+0.52    2016-01-17 (PERLANCAR)
+
+        - Set config_filenames to hardcoded value 'pause.conf' so pause-unpacked
+          (from App-pause-Unpacked distribution) and pause-fatpacked (from
+          App-pause-Fatpacked distribution) can also share configuration.
+
+        - Update to WWW::PAUSE::Simple 0.29 (add --protect-files, allow
+          specifying duration as '10s' or 'PT10s').
+
+
 0.51    2015-10-21 (PERLANCAR)
 
 	- No functional changes.
