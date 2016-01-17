@@ -45,6 +45,9 @@ Perinci::CmdLine::pause->new(
         cleanup    => { url => "${prefix}delete_old_releases" },
     },
     log => 1,
+    # since we are also run as pause-unpacked or pause-fatpacked, but want to
+    # share config, we hardcode the name here
+    config_filenames => ['pause.conf'],
 )->run;
 
 # ABSTRACT: A CLI for PAUSE
