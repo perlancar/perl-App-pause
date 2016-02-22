@@ -18,26 +18,20 @@ $ENV{DATA_SAH_CORE_OR_PP} = 1;
 
 my $prefix = '/WWW/PAUSE/Simple/';
 
+my ($tmp1, $tmp2);
+
 Perinci::CmdLine::pause->new(
     summary => 'A CLI for PAUSE',
     url => '/main/',
     extra_urls_for_version => [$prefix],
     subcommands => {
         upload     => { url => "${prefix}upload_files" },
-        list       => { url => "${prefix}list_files" },
-        ls         => {
-            url => "${prefix}list_files",
-            summary => 'Alias for list',
-            is_alias => 1,
-        },
+        list       => ($tmp1 = { url => "${prefix}list_files" }),
+        ls         => $tmp1,
         "list-dists" => { url => "${prefix}list_dists" },
         "list-mods"  => { url => "${prefix}list_modules" },
-        delete     => { url => "${prefix}delete_files" },
-        rm         => {
-            url => "${prefix}delete_files",
-            summary => 'Alias for delete',
-            is_alias => 1,
-        },
+        delete     => ($tmp2 = { url => "${prefix}delete_files" }),
+        rm         => $tmp2,
         undelete   => { url => "${prefix}undelete_files" },
         reindex    => { url => "${prefix}reindex_files" },
         #password   => { url => "${prefix}set_password" },
