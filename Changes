@@ -1,5 +1,14 @@
 Revision history for App-pause
 
+0.53    2016-04-19 (PERLANCAR)
+
+        - No functional changes.
+
+        - Edit Changes.
+
+        - Rebuild.
+
+
 0.52    2016-01-17 (PERLANCAR)
 
         - Set config_filenames to hardcoded value 'pause.conf' so pause-unpacked
