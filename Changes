@@ -107,6 +107,9 @@ Revision history for App-pause
           UPDATE: nope, still can't display it. UPDATE 2015-07-27: looks like
           MetaCPAN now can display bin/pause's POD, yay.
 
+        - Bundle Perinci::CmdLine::pause to reduce dependencies (this should've
+          been done earlier but was not due to fatten's misconfiguration).
+
 
 0.38    2015-07-02 (PERLANCAR)
 
