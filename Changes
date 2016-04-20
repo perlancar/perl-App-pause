@@ -1,12 +1,20 @@
 Revision history for App-pause
 
+0.54    2016-04-20 (PERLANCAR)
+
+        - No functional changes.
+
+        - [build] Rebuild with updated Dist::Zilla::Plugin::GenShellCompletion
+          so we avoid ConfigureRequires to Perl::osnames.
+
+
 0.53    2016-04-19 (PERLANCAR)
 
         - No functional changes.
 
         - Edit Changes.
 
-        - Rebuild.
+        - [build] Rebuild.
 
 
 0.52    2016-01-17 (PERLANCAR)
