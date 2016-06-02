@@ -41,7 +41,7 @@ Perinci::CmdLine::pause->new(
     log => 1,
     # since we are also run as pause-unpacked or pause-fatpacked, but want to
     # share config, we hardcode the name here
-    config_filenames => ['pause.conf'],
+    config_filename => ['pause.conf'],
 )->run;
 
 # ABSTRACT: A CLI for PAUSE
