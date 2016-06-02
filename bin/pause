@@ -14,6 +14,10 @@ our %SPEC;
 
 $SPEC{':package'} = { v=>1.1 };
 
+# setting log=>1 apparently work, we'll sort out this mess after we replace
+# Log::Any::IfLOG.
+$ENV{LOG} = 1;
+
 $ENV{DATA_SAH_CORE_OR_PP} = 1;
 
 my $prefix = '/WWW/PAUSE/Simple/';
