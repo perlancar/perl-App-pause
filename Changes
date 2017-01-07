@@ -1,5 +1,3 @@
-Revision history for App-pause
-
 0.55    2016-06-02 (PERLANCAR)
 
         - [Bugfix] Typo in attribute name (config_filenames -> config_filename).
