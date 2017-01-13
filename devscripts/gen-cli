@@ -21,6 +21,6 @@ my $res = gen_inline_pericmd_script(
 die "Can't generate script: $res->[0] - $res->[1]"
     unless $res->[0] == 200;
 
-my $content = $res->[2] . "\n\n" . read_text("$Bin/../share/pause.pod");
+my $content = $res->[2] . "\n\n" . read_text("$Bin/../devdata/pause.pod");
 
 write_text("$Bin/../bin/pause", $content);
