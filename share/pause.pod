@@ -67,7 +67,7 @@ To change your email forwarding (not yet implemented):
  ...
 
 
-=head1 FILES
+=head1 append:FILES
 
 F<~/.pause>
 
