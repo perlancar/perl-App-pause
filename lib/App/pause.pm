@@ -12,11 +12,9 @@ our %cli_attrs = do {
         url => '/WWW/PAUSE/Simple/',
         subcommands => {
             upload       => { url => "${p}upload_files" },
-            list         => { url => "${p}list_files" },
             ls           => { url => "${p}list_files" },
-            "list-dists" => { url => "${p}list_dists" },
-            "list-mods"  => { url => "${p}list_modules" },
-            delete       => { url => "${p}delete_files" },
+            "ls-dists" => { url => "${p}list_dists" },
+            "ls-mods"  => { url => "${p}list_modules" },
             rm           => { url => "${p}delete_files" },
             undelete     => { url => "${p}undelete_files" },
             reindex      => { url => "${p}reindex_files" },

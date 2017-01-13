@@ -15,15 +15,15 @@ Then:
  % pause upload Foo-Bar-0.12.tar.gz --subdir old/2014; # upload to a subdir
 
  # list your files
- % pause list
+ % pause ls
  % pause ls 'App-*'; # accept filenames/wildcard patterns, note: quote first
  % pause ls -l     ; # see file sizes/mtimes/etc instead of just names
 
  # list your dists
- % pause list-dists
+ % pause ls-dists
 
  # delete files
- % pause delete Foo-Bar-0.12.tar.gz Foo-Bar-0.12.readme Foo-Bar-0.12.meta
+ % pause rm Foo-Bar-0.12.tar.gz Foo-Bar-0.12.readme Foo-Bar-0.12.meta
  % pause rm 'Foo-Bar-*'; # accept wildcard patterns, but quote first
 
  # undelete files scheduled for deletion (but not actually deleted yet)
@@ -41,14 +41,14 @@ Then:
 To view permissions:
 
  # list all modules that you have permissions of
- % pause list-mods
- % pause list-mods -l ; # show detail
+ % pause ls-mods
+ % pause ls-mods -l ; # show detail
 
  # list all modules matching a wildcard
- % pause list-mods -l 'Unix*'
+ % pause ls-mods -l 'Unix*'
 
  # list all modules you have co-maint of
- % pause list-mods -l --type co-maint
+ % pause ls-mods -l --type co-maint
 
 To change permissions (not yet implemented):
 
