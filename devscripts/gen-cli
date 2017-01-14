@@ -16,6 +16,7 @@ my $res = gen_inline_pericmd_script(
     pack_deps => 0,
     script_name => 'pause',
     script_version_from_main_version => 1,
+    use_cleanser => 0,
     %App::pause::cli_attrs,
 );
 die "Can't generate script: $res->[0] - $res->[1]"
