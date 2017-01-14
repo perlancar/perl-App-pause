@@ -1,3 +1,8 @@
+0.58    2017-01-14 (PERLANCAR)
+
+	- Rebuild CLI (fix/remove data cleansing routine).
+
+
 0.57    2017-01-13 (PERLANCAR)
 
 	- No functional changes.
