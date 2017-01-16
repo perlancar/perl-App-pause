@@ -1,3 +1,8 @@
+0.59    2017-01-16 (PERLANCAR)
+
+	- Rebuild CLI (enable logging).
+
+
 0.58    2017-01-14 (PERLANCAR)
 
 	- Rebuild CLI (fix/remove data cleansing routine).
