@@ -21,6 +21,10 @@
           depak'ed Perinci::CmdLine::Lite script to make it eligible to be
           packaged in Debian which has a no-convenience-copies policy.
 
+        - [Removed features] To make things simpler and more orthogonal, remove
+          aliases list (for ls), delete (for rm); rename subcommands list-dists
+          -> ls-dists, list-mods -> ls-mods.
+
 
 0.55    2016-06-02 (PERLANCAR)
 
