@@ -1,3 +1,9 @@
+0.62    2017-07-04 (PERLANCAR)
+
+        - Rebuild CLI (fix handling of --no-ARG option, Perinci::CmdLine::Inline
+          0.53).
+
+
 0.61    2017-06-28 (PERLANCAR)
 
         - Rebuild CLI (switch from Log::ger to Log::Any).
