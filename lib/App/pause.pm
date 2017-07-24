@@ -8,7 +8,7 @@ our %cli_attrs = do {
     my $p = '/WWW/PAUSE/Simple/';
 
     (
-        summary => 'A CLI for PAUSE',
+        script_summary => 'A CLI for PAUSE',
         url => '/WWW/PAUSE/Simple/',
         subcommands => {
             upload       => { url => "${p}upload_files" },
