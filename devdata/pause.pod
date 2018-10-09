@@ -72,7 +72,7 @@ To change your email forwarding (not yet implemented):
 F<~/.pause>
 
 
-=head1 append:SEE ALSO
+=head1 SEE ALSO
 
 To clean up, there are also: L<pause-cleanup> (from L<App::PAUSE::cleanup>),
 L<WWW::PAUSE::CleanUpHomeDir> (CLI in example).
