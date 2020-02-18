@@ -1,3 +1,11 @@
+0.653   2020-02-18  Released-By: PERLANCAR; Urgency: medium
+
+	- Write access log file (currently hard-coded path in
+	  ~/pause-access.log or ./pause-access.log). Currently
+	  WWW::PAUSE::Simple produces access log for these actions: upload,
+	  delete, undelete.
+
+
 0.652   2019-06-05  Released-By: PERLANCAR
 
 	- Update to WWW::PAUSE::Simple 0.444 (use exponential backoff
