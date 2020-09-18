@@ -1,3 +1,9 @@
+0.654   2020-09-18  Released-By: PERLANCAR; Urgency: medium
+
+	- [build] Rebuild with WWW::PAUSE::Simple 0.448 to support cleaning
+	  up dev releases.
+
+
 0.653   2020-02-18  Released-By: PERLANCAR; Urgency: medium
 
 	- Write access log file (currently hard-coded path in
