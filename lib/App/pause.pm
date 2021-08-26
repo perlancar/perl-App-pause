@@ -1,5 +1,9 @@
 package App::pause;
 
+use strict;
+use warnings;
+
+# AUTHORITY
 # DATE
 # DIST
 # VERSION
