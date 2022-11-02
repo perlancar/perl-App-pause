@@ -1,7 +1,15 @@
-0.658   2022-11-02  Released-By: PERLANCAR; Urgency: medium
+0.659   2022-11-02  Released-By: PERLANCAR; Urgency: medium
+
+	- (Again) Update to WWW::PAUSE::Simple 0.453 (fix parsing of release
+          name, add --include-dist & --exclude-dist options).
+
+
+0.658   2022-11-02  Released-By: PERLANCAR; Urgency: medium; Broken: yes
 
 	- Update to WWW::PAUSE::Simple 0.453 (fix parsing of release name, add
           --include-dist & --exclude-dist options).
+
+        - UPDATE: Derp, we haven't regenerated CLI.
 
 
 0.657   2022-01-16  Released-By: PERLANCAR; Urgency: medium
